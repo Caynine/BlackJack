@@ -23,7 +23,7 @@ public class Shoe {
                     count++;
                 }
             }
-            if (count < numDecks && value != 0){
+            if (count <= numDecks && value != 0){
                 Card card = new Card(suit, value);
                 cards.add(card);
                 emptyIndices--;
